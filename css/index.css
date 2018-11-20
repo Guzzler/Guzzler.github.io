@@ -25,7 +25,9 @@ h2 {
 iframe {
 	border:1px solid #000;
 }
-
+.contentpic {
+	border:1px solid #000;
+}
 hr {
 	color:#000;
 }

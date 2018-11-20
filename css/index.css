@@ -1,0 +1,423 @@
+body {
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+	position:relative;
+	font-family:'Open Sans', Arial, Helvetica, sans-serif;
+	padding:15px 30px 30px;
+}
+
+h1 {
+	font-size:38px;
+	font-weight:200;
+}
+
+a {
+	text-decoration:none;
+	color:#000;
+}
+
+h2 {
+	font-size:24px;
+	font-weight:100;
+}
+
+iframe {
+	border:1px solid #000;
+}
+
+hr {
+	color:#000;
+}
+
+.photodiv {
+	text-align:left;
+	float:left;
+}
+
+.infodiv {
+	width:670px;
+	text-align:left;
+	float:left;
+}
+
+.infodiv p {
+	font-size:20px;
+	margin-top:-7px;
+	padding:0 10px 10px 30px;
+}
+
+.infodiv ul {
+	font-size:20px;
+	padding-left:55px;
+	padding-top:0;
+	margin-top:-25px;
+}
+
+.profile {
+	width:300px;
+	border:1px solid #8A8A8A;
+	background-color:#f6f6f6;
+	padding:2px;
+}
+
+.pagetop {
+	padding-top:0;
+	clear:both;
+}
+
+.pagehead {
+	clear:both;
+	padding-top:15px;
+	padding-bottom:15px;
+	border-top:1px solid #aaa;
+	border-bottom:1px solid #aaa;
+	text-align:center;
+}
+
+.pagehead div {
+	margin:0 auto;
+}
+
+.pagehead span {
+	font-size:24px;
+	font-weight:100;
+	padding:25px;
+}
+
+.pagehead span:hover {
+	color:#009675;
+}
+
+.greenlink {
+	color:#009675;
+	font-weight:700;
+}
+
+.lowertoppara {
+	margin-top:-10px!important;
+}
+
+.contentpane {
+	width:100%;
+	box-sizing:border-box;
+	border-bottom:#aaa 1px solid;
+	float:left;
+	text-align:left;
+	position:relative;
+	margin-top:10px;
+	height:370px;
+	padding:10px 10px 40px;
+}
+
+#fundingcontent {
+	height:auto!important;
+	padding-bottom:30px!important;
+}
+
+.venturelogo {
+	height:80px;
+	margin-top:10px;
+}
+
+#socialseva_logo {
+	height:60px;
+	margin-left:10px;
+	margin-top:20px;
+}
+
+#openshiksha_logo {
+	height:75px;
+	margin-left:8px;
+	margin-top:20px;
+	margin-bottom: 10px;
+}
+#chesskabaddi_logo {
+	height:75px;
+	margin-left:8px;
+	margin-top:20px;
+	margin-bottom: 10px;
+}
+#hawkeye_logo {
+	height:75px;
+	margin-left:8px;
+	margin-top:20px;
+	margin-bottom: 10px;
+}
+#Providentia_logo {
+	height:75px;
+	margin-left:8px;
+	margin-top:20px;
+	margin-bottom: 10px;
+}
+
+.contentpane h1 {
+	color:#413839;
+	font-size:24px;
+	margin-left: 20px;
+	position: absolute;
+	display: inline-block;
+	top:40px;
+}
+
+.contentpane iframe {
+	position:absolute;
+	top:20px;
+	right:20px;
+}
+
+.contentpane .contentpic {
+	position:absolute;
+	top:20px;
+	right:20px;
+}
+.contentpane p {
+	width:360px;
+	margin-left:10px;
+	font-size:18px;
+}
+
+.contentpane h2 {
+	color:#413839;
+	font-size:20px;
+	margin:0 0 15px 10px;
+}
+
+.contentpane:hover {
+	background-color:#fafafa;
+}
+
+.perven {
+	padding-top:10px;
+}
+
+.contact {
+	font-size:30px;
+	padding-top:20px;
+	padding-bottom:30px;
+	text-align:center;
+	clear:both;
+}
+
+.uc {
+	font-size:30px;
+	padding-top:30px;
+	padding-bottom:30px;
+	text-align:center;
+	clear:both;
+}
+
+.uc img {
+	width:230px;
+}
+
+.title {
+	float:left;
+	margin-top:0;
+}
+
+.title span {
+	color:#1D7746;
+}
+
+.blackborder {
+	border-bottom:1px solid #000!important;
+}
+
+.fundinglogo {
+	padding-top:10px;
+	position:relative;
+	height:110px;
+}
+
+.fundinglogo img {
+	position:absolute;
+	-webkit-filter:grayscale(100%);
+	-moz-filter:grayscale(100%);
+	-ms-filter:grayscale(100%);
+	-o-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+
+.fundinglogo img:hover {
+	-webkit-filter:grayscale(0%);
+	-moz-filter:grayscale(0%);
+	-ms-filter:grayscale(0%);
+	-o-filter:grayscale(0%);
+	filter:grayscale(0%);
+}
+
+#EGlogo {
+	height:120px;
+}
+
+#Dlablogo {
+	height:70px;
+	top:35px;
+	left:285px;
+}
+
+#MITlogo {
+	height:55px;
+	top:45px;
+	left:155px;
+}
+
+#IDEASlogo {
+	height:70px;
+	top:35px;
+	left:510px;
+}
+
+#Leglogo {
+	height:70px;
+	top:35px;
+	left:620px;
+}
+
+.grayscale {
+	-webkit-filter:grayscale(100%);
+	-moz-filter:grayscale(100%);
+	-ms-filter:grayscale(100%);
+	-o-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+
+.footer {
+	text-align:center;
+	font-size:20px;
+	padding-top:10px;
+}
+
+@media only screen and (max-width:500px){
+	body {
+		width:100%;
+		overflow-x:hidden;
+		padding:10px 0 0;
+	}
+
+	.title {
+		float:none;
+		width:200px;
+		font-size:27px;
+		margin:0 auto;
+	}
+
+	.photodiv {
+		float:none;
+		padding-top:10px;
+		width:75%;
+		margin:0 auto;
+	}
+
+	.profile {
+		width:100%;
+	}
+
+	.hide {
+		display:none;
+	}
+
+	.infodiv {
+		width:95%;
+		float:none;
+		padding-top:25px;
+		text-align:left;
+		margin:0 auto;
+	}
+
+	.infodiv p {
+		padding-left:24px;
+		padding-right:10px;
+	}
+
+	.infodiv ul {
+		padding-left:47px;
+		padding-right:10px;
+	}
+
+	.contentpane {
+		float:none;
+		text-align:center;
+		padding-left:0;
+		padding-right:0;
+		padding-top:0;
+		border-bottom:none;
+		height:initial;
+	}
+
+	.contentpane iframe {
+		position:relative;
+		width:99.5%;
+		height:52vw;
+		left:0;
+		top:20px;
+	}
+
+	.contentpane .contentpic{
+		position:relative;
+		width:70%;
+		height:52vw;
+		left:0;
+		top:20px;
+	}
+
+	.contentpic {
+		border:1px solid #aaa;
+	}
+
+	.contentpane p {
+		width:90%;
+		margin:10px auto;
+	}
+
+	#fundingcontent h2 {
+		text-align:center!important;
+	}
+
+	.fundinglogo {
+		height:450px;
+		margin-top:-25px;
+	}
+
+	.fundinglogo a {
+		display:block;
+		margin-top:20px;
+	}
+
+	.fundinglogo img {
+		position:relative;
+		display:block;
+		margin:0 auto;
+	}
+
+	#EGlogo {
+		height:130px;
+		top:10px;
+		left:initial;
+	}
+
+	#MITlogo {
+		height:55px;
+		top:initial;
+		left:initial;
+	}
+
+	#IDEASlogo {
+		height:70px;
+		top:initial;
+		left:initial;
+	}
+
+	#socialseva_logo {
+		margin-left:0;
+	}
+
+
+
+	#Dlablogo,#Leglogo {
+		height:50px;
+		top:initial;
+		left:initial;
+	}
+}

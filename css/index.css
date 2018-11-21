@@ -112,21 +112,13 @@ hr {
 	padding:10px 10px 40px;
 }
 
-#fundingcontent {
-	height:auto!important;
-	padding-bottom:30px!important;
-}
 
 .venturelogo {
 	height:80px;
 	margin-top:10px;
 }
 
-#socialseva_logo {
-	height:60px;
-	margin-left:10px;
-	margin-top:20px;
-}
+
 
 #openshiksha_logo {
 	height:75px;
@@ -153,6 +145,8 @@ hr {
 	margin-bottom: 10px;
 }
 
+
+
 .contentpane h1 {
 	color:#413839;
 	font-size:24px;
@@ -160,6 +154,12 @@ hr {
 	position: absolute;
 	display: inline-block;
 	top:40px;
+}
+#chesskabaddi_title{
+	margin-left:0px;
+}
+#hawk_title{
+	margin-left: 30px;
 }
 
 .contentpane iframe {
@@ -226,56 +226,9 @@ hr {
 	border-bottom:1px solid #000!important;
 }
 
-.fundinglogo {
-	padding-top:10px;
-	position:relative;
-	height:110px;
-}
 
-.fundinglogo img {
-	position:absolute;
-	-webkit-filter:grayscale(100%);
-	-moz-filter:grayscale(100%);
-	-ms-filter:grayscale(100%);
-	-o-filter:grayscale(100%);
-	filter:grayscale(100%);
-}
 
-.fundinglogo img:hover {
-	-webkit-filter:grayscale(0%);
-	-moz-filter:grayscale(0%);
-	-ms-filter:grayscale(0%);
-	-o-filter:grayscale(0%);
-	filter:grayscale(0%);
-}
 
-#EGlogo {
-	height:120px;
-}
-
-#Dlablogo {
-	height:70px;
-	top:35px;
-	left:285px;
-}
-
-#MITlogo {
-	height:55px;
-	top:45px;
-	left:155px;
-}
-
-#IDEASlogo {
-	height:70px;
-	top:35px;
-	left:510px;
-}
-
-#Leglogo {
-	height:70px;
-	top:35px;
-	left:620px;
-}
 
 .grayscale {
 	-webkit-filter:grayscale(100%);
@@ -303,6 +256,7 @@ hr {
 		width:200px;
 		font-size:27px;
 		margin:0 auto;
+		margin-left:34%;
 	}
 
 	.photodiv {
@@ -369,6 +323,7 @@ hr {
 	}
 	.contentpane h1 {
   	display:block;
+		margin-left: 20px;
 		right:30%;
 		top:17%;
 
@@ -384,58 +339,9 @@ hr {
 
 	#hawk_title{
 		top:16%;
-		right:36%;
+		right:35%;
 	}
 	#providentia_title{
-		right:36%;
-	}
-	#fundingcontent h2 {
-
-	}
-
-	.fundinglogo {
-		height:450px;
-		margin-top:-25px;
-	}
-
-	.fundinglogo a {
-		display:block;
-		margin-top:20px;
-	}
-
-	.fundinglogo img {
-		position:relative;
-		display:block;
-		margin:0 auto;
-	}
-
-	#EGlogo {
-		height:130px;
-		top:10px;
-		left:initial;
-	}
-
-	#MITlogo {
-		height:55px;
-		top:initial;
-		left:initial;
-	}
-
-	#IDEASlogo {
-		height:70px;
-		top:initial;
-		left:initial;
-	}
-
-	#socialseva_logo {
-		margin-left:0;
-	}
-
-
-
-	#Dlablogo,#Leglogo {
-		height:50px;
-		top:initial;
-		left:initial;
+		right:35%;
 	}
 }

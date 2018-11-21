@@ -367,14 +367,30 @@ hr {
 	.contentpic {
 		border:1px solid #aaa;
 	}
+	.contentpane h1 {
+  	display:block;
+		right:30%;
+		top:17%;
 
+  }
 	.contentpane p {
 		width:90%;
 		margin:10px auto;
+		margin-top: 25px;
+	}
+	#chesskabaddi_title{
+    right:30%;
 	}
 
+	#hawk_title{
+		top:16%;
+		right:36%;
+	}
+	#providentia_title{
+		right:36%;
+	}
 	#fundingcontent h2 {
-		text-align:center!important;
+
 	}
 
 	.fundinglogo {
